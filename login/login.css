@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 html {
     height: 100%;
-    overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1d183f 100%, #090a0f 100%);
+    
+    background: radial-gradient(ellipse at bottom, #2E294E 0%, #090a0f 100%);
 }
 
 #stars {
@@ -189,8 +195,8 @@ html {
 }
 #stars::after{
     content: '';
-    position: absolute;
     top: 2000px;
+    
     width: 1px;
     height: 1px;
     background: transparent;
@@ -433,7 +439,7 @@ html {
 }
 #stars2::after{
     content: '';
-    position: absolute;
+    
     top: 2000px;
     width: 2px;
     height: 2px;
@@ -525,7 +531,7 @@ html {
 
 #stars3::after{
     content: '';
-    position: absolute;
+    
     top: 2000px;
     width: 3px;
     height: 3px;
@@ -565,4 +571,12 @@ html {
     to {
         transform: translateY(-2000px);
     }
+}
+.login{
+    height: 10vh;
+    width: 10vw;
+    background-color: #2E294E;
+    display: flex;
+    position: absolute;
+    
 }
