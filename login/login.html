@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
+    
     <title>BigBang Store</title>
 </head>
 <body>
@@ -21,12 +22,13 @@
            
             <div class="input-group">
                 <label id="Email" for="email">Email</label>
-                <input type="email" id="email" placeholder="Email">
+                <input type="email" id="email" placeholder="Email" required>
             </div>
         
             <div class="input-group">
                 <label id="Senha" for="password">Senha</label>
-                <input type="password" id="password" placeholder="Senha">
+                <input type="password" id="password" placeholder="Senha" required>
+                <div id="icon" onclick="showHide()"></div>
             </div>
             
             
@@ -34,5 +36,6 @@
             
         </form>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
