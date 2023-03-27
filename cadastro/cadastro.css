@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import "../styles/background.css";
+
+.cadastro{
+    
+    height: 80vh;
+    width: 40vw;
+    background-color: #2E294E;
+    display: flex;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.cadastro .formulario{
+    margin-left: 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: -18vw;
+    flex-direction: column;
+    gap: 16px;
+}    
+.cadastro label{
+    position: relative;
+    font-size: 16px;
+    font-family: 'Noto sans', sans-serif;
+    color: rgb(235, 235, 235);
+    
+}
+.cadastro input{
+    padding: 4px;
+    outline: none;
+    position: relative;
+    height: 4vh;
+    width: 18vw;
+    border-radius: 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.cadastro button{
+    color: white;
+    background-color: #939AFF;
+    border-radius: 3px;
+    margin-top: 100px;
+    height: 4vh;
+    width: 18vw;
+    outline: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.cadastro button:hover{
+    cursor:grab;
+    background-color:#6269c9;
+}
+.logo{
+    
+    position: relative;
+    top: -12vh;
+    margin-bottom: -12vh;
+    height: 16vh;
+}
+#icon{
+    position: absolute;
+    top: 72%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: url(/styles/eye-slash-fill.svg);
+    cursor: pointer;
+    background-size: cover;
+    height: 2vh;
+    width: 1vw;
+}
+#icon2{
+    position: absolute;
+    top: 72%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: url(/styles/eye-slash-fill.svg);
+    cursor: pointer;
+    background-size: cover;
+    height: 2vh;
+    width: 1vw;
+}
+.input-group{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+#icon.hide{
+    background: url(/styles/eye-fill.svg);
+    background-size: cover;
+}
+#icon.hide2{
+    background: url(/styles/eye-fill.svg);
+    background-size: cover;
+}
+.cadastro h1,h2{
+    position: relative;
+    color: white;
+    font-family: 'Noto Sans', 'sans-serif';
+}
+
