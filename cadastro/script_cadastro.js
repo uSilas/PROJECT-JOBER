@@ -14,7 +14,9 @@ function showHide(){
 
 const confirme = document.getElementById('confirme');
 const icon2 = document.getElementById('icon2');
+
 function showHide2(){
+
     if(confirme.type === 'password'){
         confirme.setAttribute('type','text');
         icon2.classList.add('hide2')

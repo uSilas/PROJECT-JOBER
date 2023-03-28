@@ -19,12 +19,13 @@
 }
 
 .cadastro .formulario{
-    margin-left: 1px;
     display: flex;
     justify-content: center;
     margin-left: -18vw;
     flex-direction: column;
     gap: 16px;
+    width: 18vw;
+    height: 40vh;
 }    
 .cadastro label{
     position: relative;
@@ -96,7 +97,7 @@
     background: url(/styles/eye-fill.svg);
     background-size: cover;
 }
-#icon.hide2{
+#icon2.hide2{
     background: url(/styles/eye-fill.svg);
     background-size: cover;
 }
@@ -104,5 +105,10 @@
     position: relative;
     color: white;
     font-family: 'Noto Sans', 'sans-serif';
+}
+.formulario2{
+    
+    
+    top: 23vh;
 }
 
