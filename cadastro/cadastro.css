@@ -20,12 +20,13 @@
 
 .cadastro .formulario{
     display: flex;
-    justify-content: center;
+    
     margin-left: -18vw;
     flex-direction: column;
     gap: 16px;
     width: 18vw;
-    height: 40vh;
+    height: 48vh;
+    flex-wrap: wrap;
 }    
 .cadastro label{
     position: relative;
@@ -42,8 +43,6 @@
     width: 18vw;
     border-radius: 3px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    
 }
 .cadastro button{
     color: white;
@@ -106,9 +105,12 @@
     color: white;
     font-family: 'Noto Sans', 'sans-serif';
 }
-.formulario2{
-    
-    
-    top: 23vh;
-}
-
+.input-group select{
+    padding: 4px;
+    outline: none;
+    position: relative;
+    height: 4vh;
+    width: 18vw;
+    border-radius: 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
