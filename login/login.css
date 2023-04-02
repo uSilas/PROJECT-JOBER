@@ -4,8 +4,8 @@
 
 .login{
     
-    height: 60vh;
-    width: 20vw;
+    height: 80vh;
+    width: 30vw;
     background-color: #2E294E;
     display: flex;
     position: absolute;
@@ -24,6 +24,7 @@
     align-items: center;
     flex-direction: column;
     gap: 16px;
+    
 }    
 .login label{
     position: relative;
@@ -54,7 +55,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .login button:hover{
-    cursor:grab;
+    cursor:pointer;
     background-color:#6269c9;
 }
 .logo{
@@ -73,7 +74,9 @@
     width: 1vw;
 }
 .input-group{
+    display: flex;
     position: relative;
+    flex-direction: column;
 }
 #icon.hide{
     background: url(/styles/eye-fill.svg);
