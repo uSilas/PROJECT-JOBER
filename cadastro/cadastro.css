@@ -54,7 +54,7 @@
     outline: none;
     font-size: large;
     font-weight: bolder;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .cadastro button:hover{
     cursor: pointer;
