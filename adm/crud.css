@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import "../styles/background.css";
+.header{
+    height: 6vh;
+    width: 100%;
+    position: absolute;    
+    background-color:#2E294E;
+    margin-top: -1vh;
+
+}
+.login{
+    
+    height: 80vh;
+    width: 30vw;
+    background-color: #2E294E;
+    display: flex;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.login .formulario{
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}    
+
+.formulario button{
+    
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    height: 6vh;
+    width: 16vw;
+    background-color: #939AFF;
+    font-size: large;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: #6269c9;
+    cursor: pointer;
+}
+.logo{
+    margin-top: -12vh;
+    margin-bottom: -6vh;
+    height: 24vh;
+}
+
+.login h1 {
+    font-size: 3em;
+    position: relative;
+    top: 4vh;
+    color: white;
+    font-family: 'Noto Sans', 'sans-serif';
+}
+.login h2 {
+    font-size: 2em;
+    position: relative;
+    top: 3vh;
+    color: white;
+    font-family: 'Noto Sans', 'sans-serif';
+    
+}
