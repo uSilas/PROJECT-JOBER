@@ -1,0 +1,45 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+html{
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #2E294E 0%, #090a0f 100%);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12vh;
+}
+.cadastro{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: #2E294E;
+    height: 72vh;
+    width: 60vw;
+    border-radius: 10px;
+}
+.cadastro img{
+    height: 16vh;
+}
+
+.input-group1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+form{
+
+}
+.input-group1 label{
+    color: white;
+    width: 100%;
+}
